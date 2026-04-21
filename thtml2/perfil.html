@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos personales</title>
+</head>
+<body style="font-family: Arial; background-color: darkturquoise;">
+
+    <div style="width: 500px; margin: auto; margin-top: 40px; background-color: cornflowerblue; padding: 20px; border-radius: 10px;">
+
+        <h1 style="text-align: center;">Datos personales</h1>
+
+        <form>
+
+            <fieldset>
+                <legend><strong>Información personal</strong></legend>
+
+                <label>Tipo de usuario:</label><br>
+                <input type="text" value="ESTUDIANTE" readonly><br><br>
+
+                <label>Nombre completo:</label><br>
+                <input type="text"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email"><br><br>
+
+                <label>Edad:</label><br>
+                <input type="number"><br><br>
+
+                <label>Nacionalidad:</label><br>
+                <select>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Colombia</option>
+                    <option>Otro</option>
+                </select><br><br>
+
+                <label>Condición laboral:</label><br>
+                <select>
+                    <option>Desempleado</option>
+                    <option>En búsqueda laboral</option>
+                    <option>Trabajo part-time</option>
+                    <option>Trabajo full-time</option>
+                </select>
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend><strong>Gustos personales</strong></legend>
+
+
+                <label>Gustos musicales:</label><br>
+                <input type="text"><br><br>
+
+                <label>Comida favorita:</label><br>
+                <select>
+                    <option>Pastas</option>
+                    <option>Milanesa con fritas</option>
+                    <option>Asado</option>
+                    <option>Pollo al horno</option>
+                    <option>Otro</option>
+                </select><br><br>
+
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+
+            <input type="checkbox" id="recordar" name="recordar">
+            <label for="recordar">Recordar mis datos</label>
+                   
+        </form>
